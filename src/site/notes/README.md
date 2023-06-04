@@ -1,8 +1,8 @@
 ---
-{"title":"README","created":"Saturday, June 3rd 2023, 11:42:56 AM +02:00","modified":"Saturday, June 3rd 2023, 11:43:30 AM +02:00","dg-publish":true,"dg-home":true,"dg-path":"HOME.md","permalink":"/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"updated":""}
+{"title":"Sharaf's Horizon Home","created":"Saturday, June 3rd 2023, 11:42:56 AM +02:00","modified":"Sunday, June 4th 2023, 7:35:51 PM +02:00","dg-publish":true,"dg-home":true,"dg-path":"HOME.md","permalink":"/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"updated":""}
 ---
 
 
-# # Work in Progress
+# Work in Progress
 
 > This site belongs to [Mohamed Sharaf](https://www.linkedin.com/in/mahmad-sharaf/)’s second brain and the garden is still under construction.
