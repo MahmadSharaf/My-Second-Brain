@@ -1,5 +1,5 @@
 ---
-{"title":"Sharaf's Horizon Home","created":"Saturday, June 3rd 2023, 11:42:56 AM +02:00","modified":"Sunday, June 4th 2023, 7:35:51 PM +02:00","dg-publish":true,"dg-home":true,"dg-path":"HOME.md","permalink":"/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"updated":""}
+{"title":"Home","created":"Saturday, June 3rd 2023, 11:42:56 AM +02:00","modified":"Sunday, June 4th 2023, 7:35:51 PM +02:00","dg-publish":true,"dg-home":true,"permalink":"/readme/","tags":["gardenEntry"],"dgPassFrontmatter":true,"updated":""}
 ---
 
 
