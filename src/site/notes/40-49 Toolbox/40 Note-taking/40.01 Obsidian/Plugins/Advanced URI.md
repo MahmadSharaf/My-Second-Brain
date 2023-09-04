@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian Plugin - Advanced URI","created":"Wednesday, July 5th 2023, 8:47:35 PM +03:00","modified":"Monday, September 4th 2023, 9:36:11 PM +03:00","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/plugins/advanced-uri/","dgPassFrontmatter":true,"updated":""}
+{"title":"Obsidian Plugin - Advanced URI","created":"2023-07-05T20:47:35.236+03:00","modified":"Monday, September 4th 2023, 9:36:11 PM +03:00","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/plugins/advanced-uri/","dgPassFrontmatter":true,"updated":"2023-09-04T21:37:07.553+03:00"}
 ---
 
 
