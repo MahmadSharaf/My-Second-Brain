@@ -1,5 +1,5 @@
 ---
-{"title":"Advanced URI","created":"Wednesday, July 5th 2023, 8:47:35 PM +03:00","modified":"Friday, July 5th 2023, 8:47:47 PM +03:00","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/plugins/advanced-uri/","dgPassFrontmatter":true,"updated":""}
+{"title":"Obsidian Plugin - Advanced URI","created":"Wednesday, July 5th 2023, 8:47:35 PM +03:00","modified":"Monday, September 4th 2023, 9:36:11 PM +03:00","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/plugins/advanced-uri/","dgPassFrontmatter":true,"updated":""}
 ---
 
 
@@ -36,6 +36,7 @@ Obsidian Advanced URI allows you to control many different features in Obsidian 
 - I mainly use it to open my daily note and create a unique note from my mobile [[40-49 Toolbox/40 Note-taking/40.01 Obsidian/Guides/Add Android Widget for Obsidian\| widget]].
 	- Daily note URI: `obsidian://advanced-uri?commandid=daily-notes`
 	- Unique Note URI: `obsidian://advanced-uri?commandid=zk-prefixer`
+
 
 ## Preferences
 
