@@ -4,9 +4,9 @@
 
 # Obsidian Plugin - Digital Garden
 
-- GitHub:: https://github.com/oleeskild/obsidian-digital-garden
-- Documentation:: https://dg-docs.ole.dev/
-- Obsidian URL:: https://obsidian.md/plugins?id=digitalgarden
+- GitHub:: [GitHub - oleeskild/obsidian-digital-garden](https://github.com/oleeskild/obsidian-digital-garden)
+- Documentation:: [Digital Garden Overview](https://dg-docs.ole.dev/)
+- Obsidian URL:: [Plugins - Obsidian](https://obsidian.md/plugins?id=digitalgarden)
 - Obsidian URI:: [obsidian://show-plugin?id=digitalgarden](obsidian://show-plugin?id=digitalgarden)
 - Settings:: [obsidian://advanced-uri?settingid=digitalgarden](obsidian://advanced-uri?settingid=digitalgarden)
 
