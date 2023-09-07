@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian Plugin - Advanced URI","created":"Wednesday, 5 July 2023, 8:47:35 PM","modified":"Wednesday, 6 September 2023, 6:51:13 PM","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/plugins/advanced-uri/","dgPassFrontmatter":true,"updated":"Wednesday, 6 September 2023, 6:51:13 PM"}
+{"title":"Obsidian Plugin - Advanced URI","created":"Wednesday, 5 July 2023, 8:47:35 PM","modified":"Thursday, 7 September 2023, 8:29:56 PM","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/plugins/advanced-uri/","dgPassFrontmatter":true,"updated":"Thursday, 7 September 2023, 8:29:56 PM"}
 ---
 
 
@@ -14,7 +14,6 @@ tags:: #obsidian #plugin
 - Obsidian URL:: https://obsidian.md/plugins?id=obsidian-advanced-uri
 - Obsidian URI:: [obsidian://show-plugin?id=obsidian-advanced-uri](obsidian://show-plugin?id=obsidian-advanced-uri)
 - Settings:: [obsidian://advanced-uri?settingid=obsidian-advanced-uri](obsidian://advanced-uri?settingid=obsidian-advanced-uri)
-- Settings:: [obsidian://advanced-uri?settingid=command-palette](obsidian://advanced-uri?settingid=hotkeys&data=test&mode=append)
 
 ## Overview
 
