@@ -1,5 +1,5 @@
 ---
-{"title":"Cloudflare Pages","created":"2023-06-03T14:27","modified":"2023-09-09T23:18","dg-publish":true,"permalink":"/10-19-technical-skills/10-web-development/10-01-hosting/cloudflare-pages/","dgPassFrontmatter":true,"updated":"2023-09-09T23:18"}
+{"title":"Cloudflare Pages","created":"2023-06-03T14:27","modified":"2023-09-09T23:43","dg-publish":true,"permalink":"/10-19-technical-skills/10-web-development/10-01-hosting/cloudflare-pages/","dgPassFrontmatter":true,"updated":"2023-09-09T23:43"}
 ---
 
 :
