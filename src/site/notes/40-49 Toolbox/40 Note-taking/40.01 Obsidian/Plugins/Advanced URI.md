@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian Plugin - Advanced URI","created":"2023-07-05T20:47","modified":"2023-09-07T21:06","dg-publish":true,"dg-path":"Obsidian/Plugins/Advanced URI.md","permalink":"/obsidian/plugins/advanced-uri/","dgPassFrontmatter":true,"updated":"2023-09-07T21:06"}
+{"title":"Obsidian Plugin - Advanced URI","created":"2023-07-05T20:47","modified":"2023-09-09T21:30","dg-publish":true,"dg-path":"Obsidian/Plugins/Advanced URI.md","permalink":"/obsidian/plugins/advanced-uri/","dgPassFrontmatter":true,"updated":"2023-09-09T21:30"}
 ---
 
 
@@ -17,7 +17,7 @@ tags:: #obsidian #plugin
 
 ## Overview
 
-**Control everything in Obsidian with [[40-49 Toolbox/40 Note-taking/40.01 Obsidian/Guides/Obsidian hacks#Obsidian URI\|URI]]**
+**Control everything in Obsidian with [[40-49 Toolbox/40 Note-taking/40.01 Obsidian/Guides/Obsidian URI\|URI]]**
 
 Obsidian Advanced URI allows you to control many different features in Obsidian just by opening some URIs. Because they are just text and don't require any mouse clicks or keyboard inputs, they are perfect to automate your Obsidian workflow.
 
