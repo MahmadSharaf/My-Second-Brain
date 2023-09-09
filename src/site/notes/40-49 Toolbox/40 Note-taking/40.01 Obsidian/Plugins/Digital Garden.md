@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian Plugin - Digital Garden","created":"2023-07-05T20:39","modified":"2023-09-09T23:41","tags":["obsidian","plugin"],"dg-publish":true,"dg-path":"Obsidian/Plugins/Digital Garden.md","permalink":"/obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-09-09T23:41"}
+{"title":"Obsidian Plugin - Digital Garden","created":"2023-07-05T20:39","modified":"2023-09-10T00:20","tags":["obsidian","plugin"],"dg-publish":true,"dg-path":"Obsidian/Plugins/Digital Garden.md","permalink":"/obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-09-10T00:20"}
 ---
 
 # Obsidian Plugin - Digital Garden
@@ -269,7 +269,35 @@ If the main repo got new features or updates, the plugin can pull request this n
 
 ## Preferences
 
+### Configure the Plugin
 
+1. Install the plugin from the [Community Plugins](obsidian://show-plugin?id=digitalgarden)
+2. Configure the GitHub repo.
+	1. Fork the Plugin [template](https://github.com/oleeskild/digitalgarden) on GitHub, by:
+		- Click on "Use this template" button.
+		- Choose "Create a new repository".
+	2. This will redirect to a new page to create the new repo.
+		- Check "Include all branches"
+		- Enter the repo name.
+		- [Not sure] Leave it public
+	3. Now your repo is ready for publishing.
+3. Generate a GitHub token for the plugin, to give it access to the repo that we have just created. The token must have "Read and Write access to Commit Status"
+	- It could be a [Token](https://github.com/settings/tokens) that allows an app to access all repos.
+	- [Recommended] Or a Fine-grained token that gives access to a specific repo.
+		- Select generate a new token from up left.
+		- Give the token a descriptive name, like "digital-garden-token".
+		- Set an expiration period. The token will expire after this period, and it will be required to generate a new one and configure it.
+		- Under Repository access, select "Only select repositories". And choose the repo, we have just created.
+		- Under Repository permissions. For "Commit statuses", select `Access: Read and Write`.
+		- Click on "Generate token", at the bottom of the page.
+		- It will be redirected to a page with the token. Copy it and move to step 4.
+			- DON'T CLOSE THIS TAB BEFORE FINALIZING THE CONFIGURATION.
+4. Open the plugin settings, by clicking [here](obsidian://advanced-uri?settingid=digitalgarden) if you have [[40-49 Toolbox/40 Note-taking/40.01 Obsidian/Plugins/Advanced URI\|Advanced URI]] plugin, or navigate to it from Obsidian settings.
+	- Under "GitHub Authentication" tab, enter:
+		- The name of the repo we have just created in step 2.
+		- Your GitHub username
+			- You can find it by going to GitHub, click on the profile icon at the most top right of the page. It will be right next to the picture.
+		- GitHub token that we have just generated in step 3.
 
 ## Tricks
 
