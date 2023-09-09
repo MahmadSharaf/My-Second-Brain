@@ -1,15 +1,26 @@
 ---
-{"title":"Obsidian Plugin - Digital Garden","created":"2023-07-05T20:39","modified":"2023-09-07T21:11","tags":["obsidian","plugin"],"dg-publish":true,"dg-path":"Obsidian/Plugins/Digital Garden.md","permalink":"/obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-09-07T21:11"}
+{"title":"Obsidian Plugin - Digital Garden","created":"2023-07-05T20:39","modified":"2023-09-09T23:41","tags":["obsidian","plugin"],"dg-publish":true,"dg-path":"Obsidian/Plugins/Digital Garden.md","permalink":"/obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-09-09T23:41"}
 ---
 
 # Obsidian Plugin - Digital Garden
 
-- GitHub:: [GitHub - oleeskild/obsidian-digital-garden](https://github.com/oleeskild/obsidian-digital-garden)
+## Links
+
+- GitHub::
+	- [Main Repo](https://github.com/oleeskild/obsidian-digital-garden)
+	- [Deployment template](https://github.com/oleeskild/digitalgarden)
+		- This is used as a template for hosting
 - Documentation:: [Digital Garden Overview](https://dg-docs.ole.dev/)
 - Obsidian URL:: [Plugins - Obsidian](https://obsidian.md/plugins?id=digitalgarden)
 - Obsidian URI:: [obsidian://show-plugin?id=digitalgarden](obsidian://show-plugin?id=digitalgarden)
 - Settings:: [obsidian://advanced-uri?settingid=digitalgarden](obsidian://advanced-uri?settingid=digitalgarden)
-
+- Roadmap: https://trello.com/b/qYaGuz0i/markbase-roadmap
+- Demo:
+	- https://garden.alexrinehart.net/
+	- https://icewind.quest/
+	- https://notes.thatother.dev/
+- Pricing:
+	- Free to publish
 ## Overview
 
 **Publish your notes to the web, for free. In your own personal garden.**
@@ -23,27 +34,44 @@ Publish your notes directly from [Obsidian](https://obsidian.md/) to the interne
 
 ### Features
 
-- Basic Markdown Syntax
-- Links to other notes
-- Dataview queries (as code blocks, inline and dataviewjs)
-- Backlinks
-- Obsidian Themes
-- Style settings
-- Local graph
-- File tree navigation
-- Global search
-- Callouts/Admonitions
-- Embedded/Transcluded Excalidraw drawings
-- Embedded/Transcluded Images
-- Transcluded notes
-- Code Blocks
-- MathJax
-- Highlighted text
-- Footnotes
-- Mermaid diagrams
-- PlantUML diagrams
+- Highly configurable. It is possible to configure settings globally over all notes and/or per note.
+- Hackable.
+	- It supports adding custom features, or slots, as per his say. Making it easy to maintain if you wanted the latest update.
+- It supports the below Obsidian features:
+	- Footnotes
+	- Highlighted text
+	- Basic Markdown Syntax
+	- Code Blocks
+	- Links to other notes
+	- Local Graph
+	- Global Graph
+	- Backlinks
+	- Table Of Content
+	- File tree navigation
+	- Link preview
+	- Search
+	- Frontmatter tags
+	- WikiLinks
+	- Callouts/Admonitions
+	- Callouts
+	- MathJax/Latex
+	- Embedded/Transcluded Images, documents, and Excalidraw drawings
+	- Mermaid diagrams
+	- PlantUML diagrams
+- It supports community plugins:
+	- Excaildraw
+	- DataView
+- It supports many of the community themes to be the theme of the website and its Style settings
+## Usage
 
-### Note Global Settings
+### Publishing
+
+It configures to a GitHub repo that pushes updates directly to this repo from within Obsidian using the plugin. The updates could be adding, updating, or removing a note. It also could update in the global settings.
+
+If you have a website domain, it could generate links, sitemap for better SSO, and RSS feeds.
+
+### Settings
+#### Note Global Settings
 
 Settings presented in the plugin settings are global and applied instantly. But it is possible to set specific settings for a note using front matter.
 
@@ -107,7 +135,7 @@ Frontmatter: `dg-pass-frontmatter`
 
 Determines whether to let all frontmatter data through to the site template. Be aware that this could break your site if you have data in a format not recognized by the template engine, 11ty.
 
-### Note Specific Settings
+#### Note Specific Settings
 
 #### Title
 
@@ -218,14 +246,26 @@ body.backlinks-note-icon .backlink[data-note-icon="3"]::before {
   background-image: url(/img/stone.svg);
 }
 ```
-### Custom Filters
+
+### Advanced
+
+#### Path Rewrite
+
+Define rules for rewriting the folder structure on the website.
+
+For example, if the path of a note locally is "Obsidian/local/note.md", it could be changed to "online/note.md". This could be achieved by writing the rule as `Obsidian/local:online`.
+
+It also supports live preview of the rule, so you can test a path and check how the path will be with rules applies
+
+#### Custom Filters
 
 If you want any of your content to be modified before publishing the note, you can add a filter. For example, hide text that is inside a specific pattern.
 
 It also supports Regex groups, meaning you can use $1, $2 etc. in the replacement string to insert the first and second regex group and so on.
-## Usage
 
+### Updating the Website
 
+If the main repo got new features or updates, the plugin can pull request this new updates directly on the configured repo.
 
 ## Preferences
 
