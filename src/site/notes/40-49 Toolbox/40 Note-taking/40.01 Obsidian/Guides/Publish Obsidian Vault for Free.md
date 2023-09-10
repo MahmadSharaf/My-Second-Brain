@@ -1,12 +1,12 @@
 ---
-{"title":"How I Published My Knowledge Base Online for Free","created":"2023-05-13T00:00","modified":"2023-09-10T00:19","dg-publish":true,"dg-path":"Obsidian/Guides/Publish Obsidian Vault for Free.md","permalink":"/obsidian/guides/publish-obsidian-vault-for-free/","dgPassFrontmatter":true,"updated":"2023-09-10T00:19"}
+{"title":"How I Published My Knowledge Base Online for Free","created":"2023-05-13T00:00","modified":"2023-09-10T21:35","dg-publish":true,"dg-path":"Obsidian/Guides/Publish Obsidian Vault for Free.md","permalink":"/obsidian/guides/publish-obsidian-vault-for-free/","dgPassFrontmatter":true,"updated":"2023-09-10T21:35"}
 ---
 
 
 
 # How I Published My Knowledge Base Online for Free
 
-Publishing a blog online consists on three main points:
+Publishing online consists of three main points:
 1. Writing the content
 2. Build the website
 3. Hosting it online
