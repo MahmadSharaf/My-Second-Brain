@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian Plugin - DataView","created":"2023-07-04T20:33","modified":"2023-09-10T00:23","dg-publish":true,"dg-path":"Obsidian/Plugins/DataView.md","permalink":"/obsidian/plugins/data-view/","dgPassFrontmatter":true,"updated":"2023-09-10T00:23"}
+{"title":"Obsidian Plugin - DataView","created":"2023-07-04T20:33","modified":"2023-09-10T22:17","dg-publish":true,"dg-path":"Obsidian/Plugins/DataView.md","permalink":"/obsidian/plugins/data-view/","dgPassFrontmatter":true,"updated":"2023-09-10T22:17"}
 ---
 
 
@@ -26,7 +26,7 @@ Treat your [Obsidian Vault](https://obsidian.md/) as a database which you can qu
 ## Tricks
 
 - Get file modified date: 2023-09-10T00:00:00.000+03:00
-- Get file modified time: 2023-09-10T00:23:00.746+03:00
+- Get file modified time: 2023-09-10T22:17:41.809+03:00
 - [Get list of commands sorted by assigned hotkey](https://forum.obsidian.md/t/dataviewjs-snippet-showcase/17847/37): 
 
 ```js
@@ -146,6 +146,52 @@ SORT L.children.Ratings DESC, L.children.Rating DESC
 - [inline query to check how metadata is structured in your file](https://forum.obsidian.md/t/query-for-dates-that-are-actually-links-dataview/32628/2): 
 	- `'$=dv.span(dv.current())'`
 
+- Table of Contents
+```js
+// Set this to 1 if you want to include level 1 headers,
+// or set it to 2 if you want to ignore level 1 headers
+const startAtLevel = 2
+const content = await dv.io.load(dv.current().file.path)
+const toc = content.match(new RegExp(`^#{${startAtLevel},} \\S.*`, 'mg'))
+  .map(heading => {
+    const [_, level, text] = heading.match(/^(#+) (.+)$/)
+    const link = dv.current().file.path + '#' + text
+    return '\t'.repeat(level.length - startAtLevel) + `1. [[${link}|${text}]]`
+  })
+dv.header(2, 'Table of contents')
+dv.paragraph(toc.join('\n'))
+```
+- MOC with some depth up to the headings inside the note
+```js
+let p = dv.pages('"path/to/your/notes"') // Retrieve pages with title "path/to/your/notes"
+          .where(p => p.file.name != dv.current().file.name) // Filter out the current page
+          .sort(p => p.file.ctime) //sort pages by creation time
+          .forEach(p => { //for each page
+            dv.header(2, p.file.name); // Display page name as header
+            const cache = this.app.metadataCache.getCache(p.file.path);//get metadata cache for the page
+            
+            if (cache) { // If cache exists
+              const headings = cache.headings; // Get the headings from the cache
+              
+              if (headings) { //if headings exist
+                const filteredHeadings = headings.slice(1) //exclude the first heading
+                  .filter(h => h.level <= 4) // Filter headings based on level (up to level 4)
+                  .map(h => {
+                    let indent = " ".repeat(h.level - 1);// Determine indentation based on heading level
+                   // let linkyHeading = "[[#" + h.heading + "]]";
+    //Correct linking code
+    let linkyHeading = "[[" + p.file.name + "#" + h.heading + "|" + h.heading + "]]";
+    
+         
+               return indent + "- " + linkyHeading;
+                  })
+                  .join("\n");// Join the formatted headings with newlines
+                
+                dv.el("div", filteredHeadings);// Display the formatted headings as a div
+              }
+            }
+          });
+```
 ## Resources
 
 - [Dataview plugin snippet showcase - Share & showcase - Obsidian Forum](https://forum.obsidian.md/t/dataview-plugin-snippet-showcase/13673?filter=summary)
