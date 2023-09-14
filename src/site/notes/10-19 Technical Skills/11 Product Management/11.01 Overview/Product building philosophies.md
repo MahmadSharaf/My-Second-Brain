@@ -1,5 +1,5 @@
 ---
-{"title":null,"created":"Tuesday, July 18th 2023, 7:57:50 AM +02:00","modified":"Tuesday, July 18th 2023, 7:57:50 AM +02:00","dg-publish":true,"permalink":"/10-19-technical-skills/11-product-management/11-01-overview/product-building-philosophies/","dgPassFrontmatter":true,"updated":"Tuesday, July 18th 2023, 7:57:50 AM +02:00"}
+{"title":"Product Building Philosophies","created":"2023-07-18T08:57","modified":"2023-09-14T08:28","dg-publish":true,"permalink":"/10-19-technical-skills/11-product-management/11-01-overview/product-building-philosophies/","dgPassFrontmatter":true,"updated":"2023-09-14T08:28"}
 ---
 
 
@@ -7,7 +7,7 @@ status:: #status/identified
 up:: [[10-19 Technical Skills/11 Product Management/+ Product Management\|Product Management]]
 tags:: #product-management #overview
 
-# Product building philosophies
+# Product Building Philosophies
 
 ## Product-Driven
 
