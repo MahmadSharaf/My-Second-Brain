@@ -1,5 +1,5 @@
 ---
-{"title":"20,000 Leagues under the Sea","created":"2023-07-05T16:31:32","modified":"2023-09-20T20:43:35","dg-publish":true,"permalink":"/70-79-self-development/70-books/70-02-fiction/20-000-leagues-under-the-sea/","dgPassFrontmatter":true,"updated":"2023-09-20T20:43:35"}
+{"title":"20,000 Leagues under the Sea","created":"2023-07-05T16:31:32","modified":"2023-09-20T21:00:18","dg-publish":true,"permalink":"/70-79-self-development/70-books/70-02-fiction/20-000-leagues-under-the-sea/","dgPassFrontmatter":true,"updated":"2023-09-20T21:00:18"}
 ---
 
 
