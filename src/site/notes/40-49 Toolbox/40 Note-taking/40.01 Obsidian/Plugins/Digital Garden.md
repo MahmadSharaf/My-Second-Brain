@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian Plugin - Digital Garden","created":"2023-07-05T20:39","modified":"2023-09-10T00:20","tags":["obsidian","plugin"],"dg-publish":true,"dg-path":"Obsidian/Plugins/Digital Garden.md","permalink":"/obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-09-10T00:20"}
+{"title":"Obsidian Plugin - Digital Garden","created":"2023-07-05T20:00:00","modified":"2023-09-21T19:29:17","tags":["obsidian","plugin"],"dg-publish":true,"dg-path":"Obsidian/Plugins/Digital Garden.md","permalink":"/obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-09-21T19:29:17"}
 ---
 
 # Obsidian Plugin - Digital Garden
