@@ -1,5 +1,5 @@
 ---
-{"title":"Cracking the PM Interview: How to Land a Product Manager Job in Technology","created":"2023-07-14T23:22:54","modified":"2023-09-20T21:00:48","dg-publish":true,"permalink":"/70-79-self-development/70-books/70-01-technical-skills/cracking-the-pm-interview/","dgPassFrontmatter":true,"updated":"2023-09-20T21:00:48"}
+{"title":"Cracking the PM Interview: How to Land a Product Manager Job in Technology","created":"2023-07-14T23:22:54","modified":"2023-09-20T21:34:14","dg-publish":true,"permalink":"/70-79-self-development/70-books/70-01-technical-skills/cracking-the-pm-interview/","dgPassFrontmatter":true,"updated":"2023-09-20T21:34:14"}
 ---
 
 
