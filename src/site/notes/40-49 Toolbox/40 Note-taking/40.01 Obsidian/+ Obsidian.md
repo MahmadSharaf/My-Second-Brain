@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian","created":"2023-06-17T22:00:00","modified":"2023-09-23T23:11:29","aliases":["Obsidian"],"dg-publish":true,"dg-path":"Obsidian/+ Obsidian.md","permalink":"/obsidian/obsidian/","dgPassFrontmatter":true,"updated":"2023-09-23T23:11:29"}
+{"title":"Obsidian","created":"2023-06-17T22:00:00","modified":"2023-09-23T23:25:44","aliases":["Obsidian"],"dg-publish":true,"dg-pinned":true,"dg-path":"Obsidian/+ Obsidian.md","permalink":"/obsidian/obsidian/","pinned":true,"dgPassFrontmatter":true,"updated":"2023-09-23T23:25:44"}
 ---
 
 
