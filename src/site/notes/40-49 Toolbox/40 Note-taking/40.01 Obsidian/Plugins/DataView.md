@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian Plugin - DataView","created":"2023-07-04T20:00:00","modified":"2023-09-20T19:58:46","dg-publish":true,"dg-path":"Obsidian/Plugins/DataView.md","permalink":"/obsidian/plugins/data-view/","dgPassFrontmatter":true,"updated":"2023-09-20T19:58:46"}
+{"title":"Obsidian Plugin - DataView","created":"2023-07-04T20:00:00","modified":"2023-09-23T23:18:30","dg-publish":true,"dg-path":"Obsidian/Plugins/DataView.md","permalink":"/obsidian/plugins/data-view/","dgPassFrontmatter":true,"updated":"2023-09-23T23:18:30"}
 ---
 
 
@@ -25,8 +25,8 @@ Treat your [Obsidian Vault](https://obsidian.md/) as a database which you can qu
 
 ## Tricks
 
-- Get file modified date: 2023-09-20T00:00:00.000+03:00
-- Get file modified time: 2023-09-20T19:59:02.200+03:00
+- Get file modified date: 2023-09-23T00:00:00.000+03:00
+- Get file modified time: 2023-09-23T23:19:26.505+03:00
 - [Get list of commands sorted by assigned hotkey](https://forum.obsidian.md/t/dataviewjs-snippet-showcase/17847/37):
 	```js
 	const getNestedObject = (nestedObj, pathArr) => {
@@ -160,36 +160,110 @@ regexreplace(string(123456), "\B(?=(\d{3})+(?!\d))", ",")
 	dv.paragraph(toc.join('\n'))
 	```
 - MOC with some depth up to the headings inside the note
-```js
-let p = dv.pages('"path/to/your/notes"') // Retrieve pages with title "path/to/your/notes"
-          .where(p => p.file.name != dv.current().file.name) // Filter out the current page
-          .sort(p => p.file.ctime) //sort pages by creation time
-          .forEach(p => { //for each page
-            dv.header(2, p.file.name); // Display page name as header
-            const cache = this.app.metadataCache.getCache(p.file.path);//get metadata cache for the page
-            
-            if (cache) { // If cache exists
-              const headings = cache.headings; // Get the headings from the cache
-              
-              if (headings) { //if headings exist
-                const filteredHeadings = headings.slice(1) //exclude the first heading
-                  .filter(h => h.level <= 4) // Filter headings based on level (up to level 4)
-                  .map(h => {
-                    let indent = " ".repeat(h.level - 1);// Determine indentation based on heading level
-                   // let linkyHeading = "[[#" + h.heading + "]]";
-    //Correct linking code
-    let linkyHeading = "[[" + p.file.name + "#" + h.heading + "|" + h.heading + "]]";
-    
-         
-               return indent + "- " + linkyHeading;
-                  })
-                  .join("\n");// Join the formatted headings with newlines
-                
-                dv.el("div", filteredHeadings);// Display the formatted headings as a div
-              }
-            }
-          });
-```
+	```js
+	// Retrieve pages with title "path/to/your/notes"
+	let p = dv.pages('"path/to/your/notes"')
+	          // Filter out the current page
+	          .where(p => p.file.name != dv.current().file.name)
+	          //sort pages by creation time
+	          .sort(p => p.file.ctime)
+	          //for each page
+	          .forEach(p => {
+	            // Display page name as header
+	            dv.header(2, p.file.name);
+	            //get metadata cache for the page
+	            const cache = this.app.metadataCache.getCache(p.file.path);
+	            // If cache exists
+	            if (cache) { 
+	              // Get the headings from the cache
+	              const headings = cache.headings;
+	              //if headings exist
+	              if (headings) { 
+	                //exclude the first heading
+	                const filteredHeadings = headings.slice(1)
+	                  // Filter headings based on level (up to level 4)
+	                  .filter(h => h.level <= 4) 
+	                  .map(h => {
+	                    // Determine indentation based on heading level
+	                    let indent = " ".repeat(h.level - 1);
+	                   // let linkyHeading = "[[#" + h.heading + "]]";
+	    //Correct linking code
+	    let linkyHeading = "[[" + p.file.name + "#" + h.heading + "|" + h.heading + "]]";     
+			   return indent + "- " + linkyHeading;
+				  })
+				  // Join the formatted headings with newlines
+				  .join("\n");
+				// Display the formatted headings as a div
+				dv.el("div", filteredHeadings);
+			  }
+			}
+		  });
+	```
+- MOC with natural sort and no headers
+	```js
+	// Get the folder path of the current file
+	let parentFolderPath = dv.current().file.folder;
+	// The level of the parent folder relative to the vault
+	let parentFolderLevel = parentFolderPath.split("/").length;
+	// Initialize a string that will hold the current file parent folder in a for loop
+	let currentFileParentPath = "";
+	// An array that holds the file parent folder or folders names excluding the parents folders of this note
+	var folders = [];
+	//  An array to hold all resulted texts.
+	var text = [];
+	// Initialize an integer to hold the depth of the current file compared to this note.
+	var depth = 0;
+	// Retrieve all notes under this file parent folder.
+	dv.pages(`"${parentFolderPath}"`)
+	  // Filter out the current page
+	  .where((p) => p.file.name != dv.current().file.name)
+	  //.where(p=> p["dg-publish"])
+	  // Natural sort by files path
+	  .sort(
+	    (p) => p.file.path,
+	    "asc",
+	    function (a, b) {
+	      return a.localeCompare(b, undefined, {
+	        numeric: true,
+	        sensitivity: "base",
+	      });
+	    }
+	  )
+	  // for each note
+	  .forEach((p) => {
+	    // Check if the note parent folder path is different from the stored parent folder path
+	    if (currentFileParentPath != p.file.folder) {
+	      // If different then update the current parent folder path in the variable
+	      currentFileParentPath = p.file.folder;
+	      // Get the level of the note parent folder compared to the vault
+	      let currentFolderLevel = currentFileParentPath.split("/").length;
+	      // Get the depth level differences between this note parent folder and the looped note parent folder
+	      depth = currentFolderLevel - parentFolderLevel;
+	      // Loop over each depth level
+	      for (let i = 0; i < depth; i++) {
+	        // Get the folder name of the iterated depth level
+	        let folderName = p.file.folder.split("/")[i + parentFolderLevel];
+	        // Check if folder name is not already stored in the Folder names
+	        if (folderName != folders[i]) {
+	          // If not stored, then it means this is the first time to pass by this folder.
+	          // So store it in the FolderNames folder by its depth level
+	          folders[i] = folderName;
+	          // Create an entry for this parent folder as title
+	          text.push("  ".repeat(i + 1) + "- **" + folderName + "**");
+	        }
+	      }
+	    }
+	    // If the note parent folder is already stored in the variable.
+	    // It means that no need to create an entry for the parent folder.
+	    // And now create an entry of the file name as a link
+	    let fileNameLink = "[[" + p.file.name + "]]";
+	    let indent = "  ".repeat(depth + 1);
+	    text.push(indent + "- " + fileNameLink);
+	  });
+	// Join all text entries and render them as a Div
+	dv.el("div", text.join("\n"));
+	```
+
 ## Resources
 
 - [Dataview plugin snippet showcase - Share & showcase - Obsidian Forum](https://forum.obsidian.md/t/dataview-plugin-snippet-showcase/13673?filter=summary)
