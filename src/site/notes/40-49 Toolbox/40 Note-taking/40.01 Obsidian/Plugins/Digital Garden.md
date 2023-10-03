@@ -1,5 +1,5 @@
 ---
-{"title":"Digital Garden","created":"2023-07-05T20:00:00","modified":"2023-09-23T09:47:47","tags":["obsidian","plugin"],"dg-publish":true,"dg-path":"Obsidian/Plugins/Digital Garden.md","permalink":"/obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-09-23T09:47:47"}
+{"title":"Digital Garden","created":"2023-07-05T20:00:00","modified":"2023-09-29T18:20:00","tags":["obsidian","plugin"],"dg-publish":true,"dg-path":"Obsidian/Plugins/Digital Garden.md","permalink":"/obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-09-29T18:20:00"}
 ---
 
 # Obsidian Plugin - Digital Garden
@@ -135,8 +135,13 @@ Frontmatter: `dg-pass-frontmatter`
 
 Determines whether to let all frontmatter data through to the site template. Be aware that this could break your site if you have data in a format not recognized by the template engine, 11ty.
 
-#### Note Specific Settings
+### Note Specific Settings
+#### Home page
 
+Frontmatter: `dg-home: true`
+
+Set a note to be the landing page for the website.
+Only one note could be the Home page
 #### Title
 
 Frontmatter: `title: "My Custom Title"`
