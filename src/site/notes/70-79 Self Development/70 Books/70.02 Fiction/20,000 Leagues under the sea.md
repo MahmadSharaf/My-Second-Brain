@@ -12,6 +12,8 @@ author:: Jules Verne
 published:: 1869
 pages:: 269
 Cover:: ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1494979127i/33507.jpg)
+{ #0ESk8Rf9}
+
 
 # 20,000 Leagues under the Sea
 
