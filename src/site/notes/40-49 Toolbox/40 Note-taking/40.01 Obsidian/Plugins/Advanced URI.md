@@ -1,10 +1,12 @@
 ---
-{"title":"Obsidian Plugin - Advanced URI","created":"2023-07-05T20:00:00","modified":"2023-09-23T23:04:27","dg-publish":true,"dg-path":"Obsidian/Plugins/Advanced URI.md","permalink":"/obsidian/plugins/advanced-uri/","dgPassFrontmatter":true,"updated":"2023-09-23T23:04:27"}
+{"title":"Obsidian Plugin - Advanced URI","created":"2023-07-05T20:00:00","modified":"2023-10-03T22:16:12","dg-publish":true,"dg-path":"Obsidian/Plugins/Advanced URI.md","permalink":"/obsidian/plugins/advanced-uri/","dgPassFrontmatter":true,"updated":"2023-10-03T22:16:12"}
 ---
 
 
+up:: [[40-49 Toolbox/40 Note-taking/40.01 Obsidian/Plugins/+ Obsidian Plugins\|Obsidian Plugins]]
+tags:: #obsidian #plugin #uri 
 
-<div><span><p>true</p></span></div>
+<div>true</div>
 # Obsidian Plugin - Advanced URI
 
 - GitHub:: [GitHub - Vinzent03 - Advanced modes for Obsidian URI](https://github.com/Vinzent03/obsidian-advanced-uri)
