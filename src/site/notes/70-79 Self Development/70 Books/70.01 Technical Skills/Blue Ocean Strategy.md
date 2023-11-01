@@ -5,7 +5,7 @@
 
 status:: #status/identified 
 up:: 
-book-status:: #book/reading
+book-status:: #book/to-read 
 tags:: #self-development #book #skill/technical 
 genre:: #book/business #book/entrepreneurship #book/leadership #book/strategy 
 author:: W. Chan Kim, Renée Mauborgne
