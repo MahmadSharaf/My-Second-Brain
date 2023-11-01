@@ -114,7 +114,9 @@
 - Obsidian URL:: [Plugins - Obsidian](https://obsidian.md/plugins?id=digitalgarden)
 - Obsidian URI:: [obsidian://show-plugin?id=digitalgarden](obsidian://show-plugin?id=digitalgarden)
 - Settings:: [obsidian://advanced-uri?settingid=digitalgarden](obsidian://advanced-uri?settingid=digitalgarden)
-- Roadmap: https://trello.com/b/qYaGuz0i/markbase-roadmap
+- Roadmap: 
+	- [Updated - GitHub](https://github.com/users/oleeskild/projects/1/views/1)
+	- [Old - Trello](https://trello.com/b/qYaGuz0i/markbase-roadmap)
 - Demo:
 	- https://garden.alexrinehart.net/
 	- https://icewind.quest/
