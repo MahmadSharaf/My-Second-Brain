@@ -1,7 +1,10 @@
 ---
-{"title":"Obsidian Plugin - DataView","created":"2023-07-04T20:00:00","modified":"2023-09-23T23:18:30","dg-publish":true,"dg-path":"Obsidian/Plugins/DataView.md","permalink":"/obsidian/plugins/data-view/","dgPassFrontmatter":true,"updated":"2023-09-23T23:18:30"}
+{"title":"Obsidian Plugin - DataView","created":"2023-07-04T20:00:00","modified":"2023-10-04T00:03:21","dg-publish":true,"dg-path":"Obsidian/Plugins/DataView.md","permalink":"/obsidian/plugins/data-view/","dgPassFrontmatter":true,"updated":"2023-10-04T00:03:21"}
 ---
 
+
+up:: [[40-49 Toolbox/40 Note-taking/40.01 Obsidian/Plugins/+ Obsidian Plugins\|Obsidian Plugins]]
+tags:: #obsidian #plugin #query
 
 # Obsidian Plugin - DataView
 
@@ -25,8 +28,8 @@ Treat your [Obsidian Vault](https://obsidian.md/) as a database which you can qu
 
 ## Tricks
 
-- Get file modified date: 2023-09-23T00:00:00.000+03:00
-- Get file modified time: 2023-09-23T23:19:26.505+03:00
+- Get file modified date: 2023-10-04T00:00:00.000+03:00
+- Get file modified time: 2023-10-04T00:04:06.456+03:00
 - [Get list of commands sorted by assigned hotkey](https://forum.obsidian.md/t/dataviewjs-snippet-showcase/17847/37):
 	```js
 	const getNestedObject = (nestedObj, pathArr) => {
