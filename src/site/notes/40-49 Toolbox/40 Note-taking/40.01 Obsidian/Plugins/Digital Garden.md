@@ -1,8 +1,13 @@
 ---
-{"title":"Digital Garden","created":"2023-07-05T20:00:00","modified":"2023-09-29T18:20:00","tags":["obsidian","plugin"],"dg-publish":true,"dg-path":"Obsidian/Plugins/Digital Garden.md","permalink":"/obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-09-29T18:20:00"}
+{"created":"2023-07-05T20:00:00","modified":"2023-10-07T06:20:18","dg-publish":true,"dg-path":"Obsidian/Plugins/Digital Garden.md","permalink":"/obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-10-07T06:20:18"}
 ---
 
+
+up:: [[40-49 Toolbox/40 Note-taking/40.01 Obsidian/Plugins/+ Obsidian Plugins\|Obsidian Plugins]]
+tags:: #obsidian #plugin #publish
+
 # Obsidian Plugin - Digital Garden
+
 
 ## Links
 
@@ -14,7 +19,9 @@
 - Obsidian URL:: [Plugins - Obsidian](https://obsidian.md/plugins?id=digitalgarden)
 - Obsidian URI:: [obsidian://show-plugin?id=digitalgarden](obsidian://show-plugin?id=digitalgarden)
 - Settings:: [obsidian://advanced-uri?settingid=digitalgarden](obsidian://advanced-uri?settingid=digitalgarden)
-- Roadmap: https://trello.com/b/qYaGuz0i/markbase-roadmap
+- Roadmap: 
+	- [Updated - GitHub](https://github.com/users/oleeskild/projects/1/views/1)
+	- [Old - Trello](https://trello.com/b/qYaGuz0i/markbase-roadmap)
 - Demo:
 	- https://garden.alexrinehart.net/
 	- https://icewind.quest/
@@ -136,7 +143,7 @@ Frontmatter: `dg-pass-frontmatter`
 Determines whether to let all frontmatter data through to the site template. Be aware that this could break your site if you have data in a format not recognized by the template engine, 11ty.
 
 ### Note Specific Settings
-#### Home page
+#### Home Page
 
 Frontmatter: `dg-home: true`
 
