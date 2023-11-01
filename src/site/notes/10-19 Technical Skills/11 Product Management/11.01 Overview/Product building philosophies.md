@@ -1,5 +1,5 @@
 ---
-{"title":"Product Building Philosophies","created":"2023-07-18T08:57:00","modified":"2023-09-16T10:45:27","dg-publish":true,"permalink":"/10-19-technical-skills/11-product-management/11-01-overview/product-building-philosophies/","dgPassFrontmatter":true,"updated":"2023-09-16T10:45:27"}
+{"title":"Product building philosophies","created":"2023-07-18T08:57:00","modified":"2023-09-23T09:49:40","dg-publish":true,"permalink":"/10-19-technical-skills/11-product-management/11-01-overview/product-building-philosophies/","dgPassFrontmatter":true,"updated":"2023-09-23T09:49:40"}
 ---
 
 
