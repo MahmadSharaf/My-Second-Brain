@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian Plugin - DataView","created":"2023-07-04T20:00:00","modified":"2023-10-04T00:03:21","dg-publish":true,"dg-path":"Obsidian/Plugins/DataView.md","permalink":"/obsidian/plugins/data-view/","dgPassFrontmatter":true,"updated":"2023-10-04T00:03:21"}
+{"title":"Obsidian Plugin - DataView","created":"2023-07-04T20:00:00","modified":"2023-10-04T00:03:21","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/plugins/data-view/","dgPassFrontmatter":true,"updated":"2023-10-04T00:03:21"}
 ---
 
 
