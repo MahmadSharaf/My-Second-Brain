@@ -1,5 +1,5 @@
 ---
-{"created":"2023-05-13T01:00","modified":"2023-09-10T00:22","title":"How to Add Android Widget for Obsidian","dg-publish":true,"dg-path":"Obsidian/Guides/Add Android Widget for Obsidian.md","permalink":"/obsidian/guides/add-android-widget-for-obsidian/","dgPassFrontmatter":true,"updated":"2023-09-10T00:22"}
+{"created":"2023-05-13T01:00","modified":"2023-09-10T00:22","title":"How to Add Android Widget for Obsidian","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/guides/add-android-widget-for-obsidian/","dgPassFrontmatter":true,"updated":"2023-09-10T00:22"}
 ---
 
 
