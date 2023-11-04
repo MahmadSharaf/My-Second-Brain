@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian URI","created":"2023-05-13T01:00","modified":"2023-09-10T00:21","dg-publish":true,"dg-path":"Obsidian/Guides/Obsidian URI.md","permalink":"/obsidian/guides/obsidian-uri/","dgPassFrontmatter":true,"updated":"2023-09-10T00:21"}
+{"title":"Obsidian URI","created":"2023-05-13T01:00","modified":"2023-09-10T00:21","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/guides/obsidian-uri/","dgPassFrontmatter":true,"updated":"2023-09-10T00:21"}
 ---
 
 # Obsidian URI
