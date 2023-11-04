@@ -1,5 +1,5 @@
 ---
-{"created":"2023-07-05T20:00:00","modified":"2023-10-07T06:20:18","dg-publish":true,"dg-path":"Obsidian/Plugins/Digital Garden.md","permalink":"/obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-10-07T06:20:18"}
+{"created":"2023-07-05T20:00:00","modified":"2023-10-07T06:20:18","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/plugins/digital-garden/","dgPassFrontmatter":true,"updated":"2023-10-07T06:20:18"}
 ---
 
 
