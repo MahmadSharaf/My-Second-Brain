@@ -1,5 +1,5 @@
 ---
-{"created":"2023-05-15T00:00","modified":"2023-09-09T23:42","title":"Free Obsidian-like Website","dg-publish":true,"dg-path":"Obsidian/Guides/Free Obsidian-like website.md","permalink":"/obsidian/guides/free-obsidian-like-website/","dgPassFrontmatter":true,"updated":"2023-09-09T23:42"}
+{"created":"2023-05-15T00:00","modified":"2023-09-09T23:42","title":"Free Obsidian-like Website","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/guides/free-obsidian-like-website/","dgPassFrontmatter":true,"updated":"2023-09-09T23:42"}
 ---
 
 
