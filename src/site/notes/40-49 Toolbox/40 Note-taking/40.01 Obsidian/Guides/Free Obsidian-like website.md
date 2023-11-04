@@ -182,7 +182,7 @@ Publish your notes directly from [Obsidian](https://obsidian.md/) to the interne
 
 ### Caveats
 
-- Each change has its own commit, so each change will have its own Build. For example, if you updated 10 notes, you will have 10 new commits and 10 builds. This could be an issue when you host your website on a tier will limited number of builds per month.
+- Each change has its own commit, so each change will have its own Build. For example, if you updated 10 notes, you will have 10 new commits and 10 builds. This could be an issue when you host your website on a tier with limited number of builds per month.
 
 ## Markbase
 
