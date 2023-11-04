@@ -1,5 +1,5 @@
 ---
-{"aliases":["Obsidian Plugins"],"created":"2023-09-10T15:37:57","modified":"2023-10-03T22:15:02","tags":["obsidian","plugin"],"dg-publish":true,"dg-path":"Obsidian/Plugins/+ Obsidian Plugins.md","permalink":"/obsidian/plugins/obsidian-plugins/","dgPassFrontmatter":true,"updated":"2023-10-03T22:15:02"}
+{"aliases":["Obsidian Plugins"],"created":"2023-09-10T15:37:57","modified":"2023-10-03T22:15:02","tags":["obsidian","plugin"],"dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/plugins/obsidian-plugins/","dgPassFrontmatter":true,"updated":"2023-10-03T22:15:02"}
 ---
 
 
