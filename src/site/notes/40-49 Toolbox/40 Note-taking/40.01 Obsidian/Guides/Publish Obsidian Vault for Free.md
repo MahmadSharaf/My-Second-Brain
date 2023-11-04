@@ -1,5 +1,5 @@
 ---
-{"title":"How I Published My Knowledge Base Online for Free","created":"2023-05-13T00:00","modified":"2023-09-10T21:35","dg-publish":true,"dg-path":"Obsidian/Guides/Publish Obsidian Vault for Free.md","permalink":"/obsidian/guides/publish-obsidian-vault-for-free/","dgPassFrontmatter":true,"updated":"2023-09-10T21:35"}
+{"title":"How I Published My Knowledge Base Online for Free","created":"2023-05-13T00:00","modified":"2023-09-10T21:35","dg-publish":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/guides/publish-obsidian-vault-for-free/","dgPassFrontmatter":true,"updated":"2023-09-10T21:35"}
 ---
 
 
