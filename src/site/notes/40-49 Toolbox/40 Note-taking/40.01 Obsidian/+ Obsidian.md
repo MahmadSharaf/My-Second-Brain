@@ -1,5 +1,5 @@
 ---
-{"title":"+ Obsidian","created":"2023-06-17T22:00:00","modified":"2023-10-03T22:22:10","aliases":["Obsidian"],"dg-publish":true,"dg-pinned":true,"dg-path":"Obsidian/+ Obsidian.md","permalink":"/obsidian/obsidian/","pinned":true,"dgPassFrontmatter":true,"updated":"2023-10-03T22:22:10"}
+{"title":"+ Obsidian","created":"2023-06-17T22:00:00","modified":"2023-10-03T22:22:10","aliases":["Obsidian"],"dg-publish":true,"dg-pinned":true,"permalink":"/40-49-toolbox/40-note-taking/40-01-obsidian/obsidian/","pinned":true,"dgPassFrontmatter":true,"updated":"2023-10-03T22:22:10"}
 ---
 
 
