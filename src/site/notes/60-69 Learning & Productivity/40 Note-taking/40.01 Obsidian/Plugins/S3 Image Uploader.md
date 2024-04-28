@@ -39,6 +39,7 @@ localUpload: true
 localUploadFolder: "my-folder"
 ---
 ```
+
 ## Installation
 
 You have to set up your own s3 bucket, or s3-compatible service like [[50-59 Technical Skills/50 Web Development/50.03 Cloud/Cloud Storage/Cloudflare R2\|Cloudflare R2]], and configure it as below:
