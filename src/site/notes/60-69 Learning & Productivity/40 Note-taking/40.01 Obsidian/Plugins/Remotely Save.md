@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian Plugin - Remotely Save","created":"2023-07-05T20:00:00","modified":"2023-12-04T15:49:00","tags":["obsidian","plugin"],"dg-publish":true,"permalink":"/60-69-learning-and-productivity/40-note-taking/40-01-obsidian/plugins/remotely-save/","dgPassFrontmatter":true,"updated":"2023-12-04T15:49:00"}
+{"created":"2023-07-05T20:00:00","modified":"2024-04-28T21:47:26","up":null,"tags":["obsidian","plugin"],"completed":null,"title":"Obsidian Plugin - Remotely Save","dg-publish":true,"permalink":"/60-69-learning-and-productivity/40-note-taking/40-01-obsidian/plugins/remotely-save/","dgPassFrontmatter":true,"updated":"2024-04-28T21:47:26"}
 ---
 
 
