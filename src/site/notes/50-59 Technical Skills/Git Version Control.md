@@ -1,5 +1,5 @@
 ---
-{"title":"Git Version Control Cheat Sheet","created":"Saturday, May 20th 2023, 10:28:07 AM +02:00","modified":"Saturday, May 20th 2023, 11:22:47 AM +02:00","dg-publish":true,"permalink":"/50-59-technical-skills/git-version-control/","dgPassFrontmatter":true,"updated":"Saturday, May 20th 2023, 11:22:47 AM +02:00"}
+{"created":"2023-05-20T11:28:07","modified":"2024-04-28T21:47:30","up":null,"tags":null,"completed":null,"title":"Git Version Control Cheat Sheet","dg-publish":true,"permalink":"/50-59-technical-skills/git-version-control/","dgPassFrontmatter":true,"updated":"2024-04-28T21:47:30"}
 ---
 
 
@@ -14,9 +14,9 @@ tags:: #git #cheatsheet
 - Official Website: https://git-scm.com/download/win
 - WinGet PowerShell prompt:  `winget install --id Git.Git -e --source winget`
 
-## Getting started
+## Getting Started
 
-### Configure your name and public email
+### Configure Your name and Public Email
 
 1. To identify yourself locally:
 
@@ -37,7 +37,7 @@ tags:: #git #cheatsheet
    git config --global user.email "e-mail"
    ```
 
-### How to configure a Bash Profile
+### How to Configure a Bash Profile
 
 1. sets up Git with your name
 
@@ -137,7 +137,7 @@ Example:
 export PS1="\t \[\e[32m\]\u\[\e[0m\] \[\e[35m\]\w\[\e[0m\] \[\e[36m\]$(__git_ps1)\[\e[0m\] \n $ "
 ```
 
-## Git commands
+## Git Commands
 
 ### Terminal Commands
 
@@ -146,7 +146,7 @@ export PS1="\t \[\e[32m\]\u\[\e[0m\] \[\e[35m\]\w\[\e[0m\] \[\e[36m\]$(__git_ps1
 - `cd` - used to change directories
 - `rm` - used to remove files and directories
 
-### Initialize a new repo
+### Initialize a New Repo
 
 - Initialize a new repository or clone it
 
@@ -155,7 +155,7 @@ export PS1="\t \[\e[32m\]\u\[\e[0m\] \[\e[35m\]\w\[\e[0m\] \[\e[36m\]$(__git_ps1
 git init
 ```
 
-### Clone a remote repo
+### Clone a Remote Repo
 
 - Clone a remotely hosted repo to a local folder.
 
@@ -186,7 +186,7 @@ git commit -a
 .gitignore [file_1] [file_2] ... [file_n]
 ```
 
-### Check changes
+### Check Changes
 
 ```bash
 # Show commit logs.
@@ -375,7 +375,7 @@ git fetch <referral_name> <branch_name>
 git merge <branch_name> <referral_name/branch_name>
 ```
 
-### Remove file tracking
+### Remove File Tracking
 
 ```bash
 # Remove file from tracking
