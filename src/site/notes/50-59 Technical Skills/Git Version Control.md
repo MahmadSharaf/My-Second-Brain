@@ -1,11 +1,7 @@
 ---
-{"created":"2023-05-20T11:28:07","modified":"2024-04-28T21:47:30","up":null,"tags":null,"completed":null,"title":"Git Version Control Cheat Sheet","dg-publish":true,"permalink":"/50-59-technical-skills/git-version-control/","dgPassFrontmatter":true,"updated":"2024-04-28T21:47:30"}
+{"created":"2023-05-20T11:28:07","modified":"2024-04-28T21:50:34","up":null,"tags":["#git","#cheatsheet"],"completed":null,"title":"Git Version Control Cheat Sheet","dg-publish":true,"permalink":"/50-59-technical-skills/git-version-control/","dgPassFrontmatter":true,"updated":"2024-04-28T21:50:34"}
 ---
 
-
-status:: #status/identified 
-up:: 
-tags:: #git #cheatsheet 
 
 # Git Version Control Cheat Sheet
 
