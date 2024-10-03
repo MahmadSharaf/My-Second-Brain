@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Obsidian/Guides/","permalink":"/Obsidian/Guides/","tags":["#obsidian","#how-to","#font"],"created":"2024-10-01T21:54:40","updated":"2024-10-03T09:20:18"}
+{"dg-publish":true,"dg-permalink":"Obsidian/Guides/How to add a font to Obsidian for all devices or for specific language","permalink":"/Obsidian/Guides/How to add a font to Obsidian for all devices or for specific language/","tags":["#obsidian","#how-to","#font"],"created":"2024-10-01T21:54:40","updated":"2024-10-03T09:20:18"}
 ---
 
 # How to Add a New Font to Obsidian
